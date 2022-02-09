@@ -1,0 +1,69 @@
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="partner_loan_data.list">
+      <field name="name">partner.loan.list</field>
+      <field name="model">partner.loan</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="date"/>
+          <field name="fees"/>
+          <field name="amount_total" widget='monetary' options="{'currency_field': 'currency_id'}"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="partner_loan_data.action_window">
+      <field name="name">Partner's Loan</field>
+      <field name="res_model">partner.loan</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.ui.view" id="partner_loan_data_form">
+        <field name="name">partner.loan.form</field>
+        <field name="model">partner.loan</field>
+        <field name="arch" type="xml">
+            <form string="Partner's Loans">
+              <sheet>
+                  <div class="oe_title">
+                      <label for="name" />
+                      <h1>
+                          <field name="name" placeholder="Loan Name" attrs="{'readonly': True }"/>
+                      </h1>
+                  </div>
+                  <group>
+                      <group>
+                          <field name="partner_id" widget='selection'/>
+                          <field name="date"/>
+                      </group>
+                      <group>
+                          <field name="fees"/>
+                          <field name="amount_total" widget='monetary' options="{'currency_field': 'currency_id'}"/>
+                      </group>
+                  </group>
+                  <notebook colspan="4">
+                      <page string="Payment Lines">
+                          <field name="line_ids" attrs="{'readonly': True }"/>
+                      </page>
+                  </notebook>
+              </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="partner_loan_data.line_list">
+      <field name="name">partner.loan.line.list</field>
+      <field name="model">partner.loan.line</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="payment_date"/>
+          <field name="amount" widget='monetary' options="{'currency_field': 'currency_id'}"/>
+        </tree>
+      </field>
+    </record>
+
+    <menuitem id="partner_loan_data.partner_loan" name="Loans" parent="account.menu_finance" 
+        sequence="30" action="partner_loan_data.action_window"/>
+
+  </data>
+</odoo>

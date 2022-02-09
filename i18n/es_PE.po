@@ -1,0 +1,162 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_loan_data
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-09 00:05+0000\n"
+"PO-Revision-Date: 2022-02-08 19:11-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_PE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan_line__amount
+msgid "Amount"
+msgstr "Monto"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan__amount_total
+msgid "Amount Total"
+msgstr "Monto Total"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan__partner_id
+msgid "Applicant"
+msgstr "Solicitante"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan__create_uid
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan_line__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan__create_date
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan_line__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan__currency_id
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan_line__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan__date
+msgid "Date"
+msgstr "Fecha"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan__disabled
+msgid "Disabled"
+msgstr "Inactivo"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan__display_name
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan_line__display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan__id
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan____last_update
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan_line____last_update
+msgid "Last Modified on"
+msgstr "Última Modificación el"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan__write_uid
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan_line__write_uid
+msgid "Last Updated by"
+msgstr "Última Actualización el"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan__write_date
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan_line__write_date
+msgid "Last Updated on"
+msgstr "Última Actualización por"
+
+#. module: partner_loan_data
+#: model:ir.model,name:partner_loan_data.model_partner_loan_line
+msgid "Line for partners loans"
+msgstr "Línea para Prñéstamos de Usarios"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan_line__loan_id
+#: model:ir.module.category,name:partner_loan_data.loan_management
+msgid "Loan"
+msgstr "Préstamo"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan__line_ids
+msgid "Loan Lines"
+msgstr "Líneas del Préstamo"
+
+#. module: partner_loan_data
+#: model:res.groups,name:partner_loan_data.loan_manager
+msgid "Loan Manager (total access)"
+msgstr "Administrador (acceso total)"
+
+#. module: partner_loan_data
+#: model_terms:ir.ui.view,arch_db:partner_loan_data.partner_loan_data_form
+msgid "Loan Name"
+msgstr "Nombre del Préstamo"
+
+#. module: partner_loan_data
+#: model:ir.ui.menu,name:partner_loan_data.partner_loan
+msgid "Loans"
+msgstr "Préstamos"
+
+#. module: partner_loan_data
+#: model:ir.model,name:partner_loan_data.model_partner_loan
+msgid "Loans for partners"
+msgstr "Préstamos para usuarios"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: partner_loan_data
+#: model:ir.actions.act_window,name:partner_loan_data.action_window
+msgid "Partner's Loan"
+msgstr "Préstamo del Usuario"
+
+#. module: partner_loan_data
+#: model_terms:ir.ui.view,arch_db:partner_loan_data.partner_loan_data_form
+msgid "Partner's Loans"
+msgstr "Préstamo del Usuario"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan_line__payment_date
+msgid "Payment Date"
+msgstr "Fecha de Pago"
+
+#. module: partner_loan_data
+#: model_terms:ir.ui.view,arch_db:partner_loan_data.partner_loan_data_form
+msgid "Payment Lines"
+msgstr "Líneas de PAgo"
+
+#. module: partner_loan_data
+#: model:ir.model.fields,field_description:partner_loan_data.field_partner_loan__fees
+msgid "Term"
+msgstr "Cuotas"
+
+#. module: partner_loan_data
+#: model:ir.module.category,description:partner_loan_data.loan_management
+msgid "User access level for Loan module"
+msgstr "Nivel de acceso de usuario para modulo Préstamos"

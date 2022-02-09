@@ -1,0 +1,15 @@
+<odoo>
+    <data>
+        <record model="ir.module.category" id="loan_management">
+            <field name="name">Loan</field>
+            <field name="description">User access level for Loan module</field>
+            <field name="sequence">20</field>
+        </record>
+
+        <record id="loan_manager" model="res.groups">
+            <field name="name">Loan Manager (total access)</field>
+            <field name="category_id" ref="loan_management"/>
+        </record>
+    </data>
+</odoo>
+
